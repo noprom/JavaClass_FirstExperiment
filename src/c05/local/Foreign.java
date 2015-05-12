@@ -1,4 +1,4 @@
-package c05.foreign;
+package c05.local;
 
 import c05.local.*;
 

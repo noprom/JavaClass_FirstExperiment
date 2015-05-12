@@ -56,8 +56,16 @@ public class Method {
 		System.out.println(" } is " + min);
 
 		// 数组求和
-		int sumArr[] = { 1, 2, 3 };
-		Integer newArr[] = method.cumulativeSums(sumArr);
+		int priArr[] = { 1, 2, 3 };
+		Integer newArr[] = method.cumulativeSums(priArr);
+		// 打印原数组的值
+		System.out.print("Old array is {");
+		for (int val : priArr) {
+			System.out.print(" " + val);
+		}
+		System.out.println(" }");
+		
+		// 打印新数组的值
 		System.out.print("New array is {");
 		for (int val : newArr) {
 			System.out.print(" " + val);

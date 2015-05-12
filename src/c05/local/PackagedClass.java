@@ -1,10 +1,9 @@
 package c05.local;
 
-public class PackagedClass {
+class PackagedClass {
 
 	public PackagedClass() {
-		System.out.println(
-		"Creating a packaged class");
-		}
+		System.out.println("Creating a packaged class");
+	}
 
 }
